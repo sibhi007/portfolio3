@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/436684bd82.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="C:\Users\sibhi\OneDrive\Desktop\portfolio\img\logo3.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Services">Services</a></li>           
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                    <h1>Hi, I'm <span> Sibhi Chakravarthi</span></h1>
+                </div>
+            </div>
+        </div>
+<!-----------------------------about------------------------------------------------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img\user1.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Full stack developer who is passionate to creating and improving user-centered websites and applications.
+                        Logical and results-oriented. When designing efficient websites, apps, and platforms 
+                        to promote competitive advantage and revenue growth, be wise and imaginative. 
+                        Technically adept and analytic problem solver with a composed and laser-like focus.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Application</span><br>Proficient in creating and designing websites.</li>
+                                <li><span>Web Development</span><br>Developed a personal portfolio website.<br></li>
+                                <li><span>Python Programmer</span><br>completed projects in python.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Internship</span><br>Internship on Machine Learning with Python at YBI Foundation. </li>
+                                <li><span>Web Application</span><br>Developed a website called Digitalized agriculture.</li>
+                                <li><span>Projects</span><br>Machine Learning Model Development projects.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024</span><br>B.E CSE at Sri Venkateswara College of Engineering.</li>
+                                <li><span>2019-2020</span><br>HSC at Velammal Vidyalaya.</li>
+                                <li><span>2017-2018</span><br>SSLC at Velammal Vidyalaya.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----------------------------services------------------------------>
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web Application</h2>
+                <p>Developed a website named Digitalized agriculture
+                   to enhance farming efficiency by employing 
+                   smart sensors and data analytics</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Created a  personal portfolio website 
+                   that contains information about my skills,
+                   works,experience,education and training.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Projects</h2>
+                <p>Well Proficient in python language
+                   with 4 years of experience and
+                   developed more than 5 projects.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------portfolio---------------------------------------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img\work1.jpg">
+                <div class="layer">
+                    <h3>Digitalized Agriculture</h3>
+                    <p>Developed a website called Digitalized Agriculture using machine learning and 
+                        internet of things to enhance farming efficiency by employing smart sensors 
+                        and data analytics, enabling real time montoring and automated decision making 
+                        for optimal crop management.</p>
+                    <a href="https://github.com/sibhi007/agroplus"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img\work2.jpg">
+                <div class="layer">
+                    <h3>Machine Learning Projects</h3>
+                    <p>Completed a fundamental course on machine learning and implemented it by developing
+                       more than 5 projects based on the classification and regression. The projects were 
+                       credit card fraud detection, Diamond price prediction, etc.....</p>
+                    <a href="https://www.linkedin.com/posts/sibhi-chakravarthi-b-a8291a245_ybifoundation-ybif-ybiintern-activity-6997464034711134208-sykQ?utm_source=share&utm_medium=member_desktop"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img\work3.png">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>Developed a personal portfolio website to showcase my web development skills
+                       and included all my skills, works, services in it with a attractive designing
+                       skills and much more</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------------------------------------contact------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sibhi200307@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9360473749</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sibhi-chakravarthi-b-a8291a245"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/sibhichakravarthi"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="img\Sibhi-chakravarthi-B-Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Sibhi Chakravarthi. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-400px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxNZZlYGmzNXPqFBmYFXyXhIcCEHv0cWVDJs_4pOQ8RhXky7KJF3BE42uHiykBzTk1Y/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
